@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_itel-P1102GT",
+    name: "libinit_P1102GT",
     header_libs: [
         "libbase_headers",
     ],
@@ -9,6 +9,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_itel-P1102GT.cpp"],
+    srcs: ["init_P1102GT.cpp"],
     recovery_available: true,
 }
